@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DISC Personality Assessment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>DISC Personality Test (24 Questions)</h2>
+    <form id="discForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your full name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email address" required />
+
+      <div id="questions-container"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result" class="hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
